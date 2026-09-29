@@ -14,6 +14,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     padding: 8px;
+     border-radius: 8px 8px 0 0;
 }
 
 h1 {
@@ -29,8 +30,8 @@ ul{
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
-    font-size: small;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /* hero section */
@@ -52,8 +53,14 @@ a {
     font-weight: 900
 }
 
+.left-side p,
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .left-side button {
-    background-color: rgb(94, 94, 255);
+    background-color: #3882F6;
     border: 0;
     border-radius: 8px;
     color: white;
@@ -74,7 +81,68 @@ a {
 }
 
 img {
-    font-size: small;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
-/*  */
+/* main */
+/* upper */
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images-card {
+    display: flex;
+    gap: 16px;
+}
+
+.img div{
+    height:150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.img p {
+   height:100px;
+    width: 150px; 
+}
+
+/* middle */
+
+.middle {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle p {
+    font-size: 36px;
+    color: #1F2937;
+    width:700;
+    font-style: italic;
+    
+}
+
+blockquote {
+    margin: 50px 0;
+    width: 700px;
+}
+
+.middle footer {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 16px;
+}
